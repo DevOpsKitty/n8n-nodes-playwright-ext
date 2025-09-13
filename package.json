@@ -1,0 +1,45 @@
+{
+  "name": "n8n-nodes-playwright-ext",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "n8n-community-node-package"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "webcpy",
+    "email": "webcpy1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevOpsKitty/n8n-nodes-playwright-ext"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "watch": "nodemon",
+    "format": "prettier nodes credentials --write"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [],
+    "nodes": [
+      "dist/nodes/Playwright/Playwright.node.js"
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "n8n-core": "*",
+    "n8n-workflow": "*",
+    "prettier": "^2.7.1",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "playwright": "1.41.0"
+  }
+}

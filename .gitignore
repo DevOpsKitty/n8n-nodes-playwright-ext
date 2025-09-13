@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.env
+n8n_data/
+.npmrc
+.npmignore
+dist
+.turbo
+pnpm-lock.yaml
