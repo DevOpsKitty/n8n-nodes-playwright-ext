@@ -2,11 +2,6 @@ FROM n8nio/n8n:latest
 
 USER root
 
-RUN echo "https://mirrors.aliyun.com/alpine/v3.22/main" > /etc/apk/repositories && \
-echo "https://mirrors.aliyun.com/alpine/v3.22/community" >> /etc/apk/repositories
-
-RUN apk update && apk upgrade && apk add --no-cache ffmpeg curl 
-
 RUN apk update && apk upgrade && apk add --no-cache \
     chromium \
     nss \

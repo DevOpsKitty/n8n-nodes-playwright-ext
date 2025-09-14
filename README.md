@@ -8,7 +8,7 @@ An n8n node for advanced browser automation using [Playwright](https://playwrigh
 
 ### Community Nodes (Recommended)
 
-For n8n version 0.187 and later, install this node through the Community Nodes panel:
+For n8n version later, install this node through the Community Nodes panel:
 
 1. Go to **Settings > Community Nodes**
 2. Select **Install**
@@ -58,7 +58,6 @@ Use the provided Docker setup to include all necessary dependencies:
   - Set custom headers and user agents
   - Configure navigation timeouts and wait conditions
   - Proxy support
-  - Incognito/private browsing mode
 
 ## Custom Scripts
 
